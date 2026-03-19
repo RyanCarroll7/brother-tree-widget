@@ -20,7 +20,7 @@
     display: flex;
     gap: 10px;
     justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .brother-tree-container .brother-tree-chart-container {
