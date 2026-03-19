@@ -4,12 +4,12 @@ This tiny project renders a hierarchical, fraternity brother tree using [`d3-org
 
 ## Usage as a Web Component
 
-After building/serving the project with Vite, simply include the script and use the custom element:
+Load the web component onto your website from this repository with the following HTML snippet:
 
 ```html
-<script type="module" src="/src/main.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/RyanCarroll7/brother-tree-widget@{{version}}/dist/brother-tree.js"></script>
 
-<brother-tree api-url="https://example.com/api/brothers/"></brother-tree>
+<brother-tree api-url="{{your-api-url}}/brothers/"></brother-tree>
 ```
 
 - `api-url` - optional attribute specifying the endpoint to fetch brother data from. Defaults to `http://localhost:8000/api/brothers/`.
